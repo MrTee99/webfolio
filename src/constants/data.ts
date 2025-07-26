@@ -32,7 +32,7 @@ const home = {
 const about = {
   title: 'My Journey',
   profilePic: { src: 'https://ik.imagekit.io/c4nxqtjsj/myself.jpg', alt: 'Tahir Saeed' },
-  description: "I'm a passionate full-stack developer with 4+ years of experience creating digital solutions that solve real problems. With expertise in modern web technologies, I deliver beautiful, functional applications that help businesses and individuals achieve their goals. Whether you&apos;re looking for a new web app, desktop app or a mobile solution, or need to revamp your existing digital presence, I combine technical knowledge with creative problem-solving to deliver exceptional results.",
+  description: "I'm a passionate full-stack developer with 4+ years of experience creating digital solutions that solve real problems. With expertise in modern web technologies, I deliver beautiful, functional applications that help businesses and individuals achieve their goals. Whether you're looking for a new web app, desktop app or a mobile solution, or need to revamp your existing digital presence, I combine technical knowledge with creative problem-solving to deliver exceptional results.",
   myJourney: 'I began my career as a self-taught developer in 2018 with a passion for creating beautiful, functional websites. What started as a hobby quickly evolved into a profession as I honed my skills in both design and development. With a background in computer science and design',
   stats: [
     { count: '15+', title: ['Projects', 'Completed'] },
@@ -113,7 +113,7 @@ const workflow = [
 
 const contact = {
   title: 'Get In Touch',
-  subtitle: ['Ready to start a project or just want to say hello?', 'Reach out and let&apos;s discuss how I can help bring your ideas to life.'],
+  subtitle: ['Ready to start a project or just want to say hello?', "Reach out and let's discuss how I can help bring your ideas to life."],
   details: [
     { icon: PhoneIcon, title: 'Phone', description: '+92 336 2464578' },
     { icon: EmailIcon, title: 'Email', description: 'tahirsaeed99.ts@gmail.com' },
