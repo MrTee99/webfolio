@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { ThemeProviderContext, type ResolvedTheme, type Theme } from './theme-context';
 
-export const ThemeProvider: React.FC<{ defaultTheme?: Theme; storageKey?: string; children: React.ReactNode }> = ({ defaultTheme = 'system', storageKey = 'vite-ui-theme', children }) => {
+export const ThemeProvider: React.FC<{ defaultTheme?: Theme; storageKey?: string; children: React.ReactNode }> = ({ defaultTheme = 'light', storageKey = 'vite-ui-theme', children }) => {
   const [theme, setTheme] = useState<Theme>('light');
   const [resolvedTheme, setResolvedTheme] = useState<ResolvedTheme>('light');
 
