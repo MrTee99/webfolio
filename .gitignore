@@ -30,3 +30,6 @@ dist-ssr
 .firebaserc
 firebase.json
 .firebase/*
+
+# Others
+ROADMAP.md

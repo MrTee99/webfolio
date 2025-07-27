@@ -115,9 +115,9 @@ const contact = {
   title: 'Get In Touch',
   subtitle: ['Ready to start a project or just want to say hello?', "Reach out and let's discuss how I can help bring your ideas to life."],
   details: [
-    { icon: PhoneIcon, title: 'Phone', description: '+92 336 2464578' },
-    { icon: EmailIcon, title: 'Email', description: 'tahirsaeed99.ts@gmail.com' },
-    { icon: LocationIcon, title: 'Location', description: 'Karachi, Pakistan' },
+    { icon: PhoneIcon, title: 'Phone', description: '+92 336 2464578', link: 'tel:+923362464578' },
+    { icon: EmailIcon, title: 'Email', description: 'tahirsaeed99.ts@gmail.com', link: 'mailto:tahirsaeed99.ts@gmail.com' },
+    { icon: LocationIcon, title: 'Location', description: 'Karachi, Pakistan', link: 'https://www.google.com/maps?q=Karachi,+Pakistan' },
   ],
 };
 

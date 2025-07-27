@@ -14,7 +14,7 @@ const ContactHero: React.FC = () => (
     </p>
     <div className="mx-auto grid grid-cols-1 gap-4 max-md:mt-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
       {data.contact.details.map((item, index) => (
-        <div key={index} className="bg-card col-span-1 flex max-w-[24rem] flex-row items-start gap-3 rounded-md p-2.5 pr-6 md:max-w-[18rem] md:last:col-span-2 md:last:max-w-full md:last:py-3 lg:last:col-span-1 lg:last:max-w-[18rem] lg:last:p-2.5">
+        <a href={item.link} target="_blank" key={index} className="bg-card col-span-1 flex max-w-[24rem] cursor-pointer flex-row items-start gap-3 rounded-md p-2.5 pr-6 md:max-w-[18rem] md:last:col-span-2 md:last:max-w-full md:last:py-3 lg:last:col-span-1 lg:last:max-w-[18rem] lg:last:p-2.5">
           <div className="bg-background dark:bg-muted-foreground/20 flex aspect-square w-10 flex-shrink-0 items-center justify-center rounded-md">
             <item.icon />
           </div>
@@ -22,7 +22,7 @@ const ContactHero: React.FC = () => (
             <h3 className="text-sm font-medium">{item.title}</h3>
             <p className="text-muted-foreground mt-0.5 text-xs font-medium">{item.description}</p>
           </div>
-        </div>
+        </a>
       ))}
     </div>
   </div>
